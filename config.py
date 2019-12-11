@@ -1,2 +1,2 @@
-EMAIL_ADDRESS = 'freedomenka@gmail.com'
-PASSWORD = 'Fuckgoogle@@#60'
+EMAIL_ADDRESS = 'yourEmail'
+PASSWORD = 'yourPassword'
