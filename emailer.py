@@ -13,7 +13,7 @@ def initialize():
 
     subject = "Testing" #Subject text of the email to be sent
 
-    msg = txtParser.file_read(r"C:\Users\DrapelickClient2\Desktop\pyproject\Emailsss\log.txt") #Inner message component of the email
+    msg = txtParser.file_read(r"C:\Users\%Path%\log.txt") #Inner message component of the email
 
 
 
@@ -41,7 +41,7 @@ def main():
     
     send_email(subject, msg)
     
-    '''while True:#This algorithm with run in perpetuity or until stopped. Its purpose is to run the send_email function every x hours
+    '''while True:#This algorithm will run in perpetuity or until stopped. Its purpose is to run the send_email function every x hours
         if oldHour == 23 and datetime.datetime.now().hour == 0:
             oldHour = -1
         
